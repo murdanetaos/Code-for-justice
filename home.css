@@ -116,7 +116,7 @@ footer a{
     color: white;
   }
   /*Mobile*/
-@media screen and (max-width: 420px) {
+/*@media screen and (max-width: 420px) {
     .flex-container{
         font-size: x-small;
     }
@@ -128,7 +128,7 @@ footer a{
     }
 }
 /*tablet*/
-@media screen and (min-width: 421px) and (max-width: 1050px) {
+/*@media screen and (min-width: 421px) and (max-width: 1050px) {
     .flex-container{
         font-size: x-small;
     }
