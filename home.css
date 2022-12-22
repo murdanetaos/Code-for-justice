@@ -1,0 +1,117 @@
+body{
+    background-color: white;
+    margin: 0;
+} 
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+ul li a:hover{
+    color: black;
+}
+ul{
+    padding: 0px 5px;
+    list-style: none;
+    
+}
+ul li {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    padding: 0px 5px;
+    
+}
+.navbar{
+    width:100%;
+    background-color: lightblue;
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px;
+}
+.background{
+    background-image: url(/White-Family-Photo.jpeg);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+h2{
+    text-align: center;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: center;
+    height: 200px;
+    text-align: center;
+    width: auto;
+    /*padding-left: 250px;*/
+}
+.impact{
+    border: 5px;
+    border-style: double;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-color: lightblue;
+}
+.Intro{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.summary{
+    font-weight: bolder;
+    font-size: x-large;
+}
+footer{
+    width:100%;
+    background-color: lightblue;
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  
+}
+footer a{
+    display: flex;
+    justify-content: center;
+    padding: 0px 15px ;
+    margin:10px;
+    flex-direction: column;
+}
+
+.fa  {
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20%;
+ 
+    
+  }
+
+.fa-snapchat-ghost {
+    background: #fffb00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+  .fa-instagram {
+    background: #145380;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #59aae8 ;
+    color: white;
+  }
+
+  .fa-facebook {
+    background: #3a5692;
+    color: white;
+  }
