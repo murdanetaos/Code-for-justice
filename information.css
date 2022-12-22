@@ -1,0 +1,229 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.header{
+    background-image: url(/justice\ project\ hero\ image.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -50px;
+    margin-left: -10px;
+    height: 60%;
+    width: 100%;
+    
+}
+
+.nav-bar{
+    position: relative;
+}
+
+
+
+.organization-name{
+    font-size: 50px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.mission-title, .process-title{
+    text-align: center;
+    font-size: 30px;
+}
+
+.mission-statement{
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+
+.mission-content, .process-content, .services-content{
+    display: block;
+    margin-block: 10px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.overview, .mission, .process{
+   padding: 30px; 
+   border: 10px double lightblue;
+   margin: 50px;
+}
+
+.process{
+    max-width: 83%;
+    display: flexbox;
+    align-content: center;
+    margin-left: 80px;
+}
+
+
+
+.FAQ-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 80px;
+    max-width: 90%;
+    margin: 100px auto;
+    
+    
+}
+
+.FAQ-card{
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 100px;
+    border: 1px solid black;
+    
+}
+
+.FAQ-image{
+    height: 200px;
+    width: 300px;
+    
+}
+
+.FAQ-header{
+  
+  text-align: center;
+  margin: 50px;
+  font-size: 50px;
+  
+
+
+}
+
+.center-grid{
+    max-width: 100%;
+    margin: 100px auto;
+    background-color: lightblue;
+    margin-left: -10px;
+}
+
+.statistics-circles{
+    height : 200px;
+    width: 200px;
+    border: 5px double white;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 10rem;
+    padding : 2rem;
+    margin: 30px;
+}
+
+.circles-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    background-color: lightblue;
+}
+
+.circle-text{
+    font-size: 25px;
+    text-align: center;
+    
+}
+
+.statistics-title, .services-title{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.services{
+    display: block;
+
+    text-align: center;
+    
+    
+}
+footer{
+    width:100%;
+    background-color: lightblue;
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  
+}
+footer a{
+    display: flex;
+    justify-content: center;
+    padding: 0px 15px ;
+    margin:10px;
+    flex-direction: column;
+}
+
+.fa  {
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20%;
+ 
+    
+  }
+
+.fa-snapchat-ghost {
+    background: #fffb00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+  .fa-instagram {
+    background: #145380;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #59aae8 ;
+    color: white;
+  }
+
+  .fa-facebook {
+    background: #3a5692;
+    color: white;
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+ul li a:hover{
+    color: black;
+}
+ul{
+    padding: 0px 5px;
+    list-style: none;
+    
+}
+ul li {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    padding: 0px 5px;
+    
+}
+.navbar{
+    width:100%;
+    background-color: lightblue;
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px;
+    text-align: right;
+}
