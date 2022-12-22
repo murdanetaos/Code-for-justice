@@ -1,7 +1,13 @@
 html, body{
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
 }
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
 
 .header{
     background-image: url(/justice\ project\ hero\ image.avif);
@@ -36,11 +42,17 @@ html, body{
 
 .mission-statement{
     margin: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* flex-wrap: wrap */
+    /* justify-content: center; */
     
-    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.process {
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
 .mission-content, .process-content, .services-content{
@@ -50,18 +62,20 @@ html, body{
     font-size: 20px;
 }
 
-.overview, .mission, .process{
-   padding: 30px; 
-   border: 10px double lightblue;
-   margin: 50px;
+.overview2, .mission2, .process2{
+display: none;
 }
-
-.process{
+.overview, .mission, .process{
+    padding: 30px; 
+    border: 10px double lightblue;
+    margin: 50px;
+ }
+/* .process{
     max-width: 83%;
-    display: flexbox;
+    display: flex;
     align-content: center;
     margin-left: 80px;
-}
+} */
 
 
 
@@ -70,7 +84,7 @@ html, body{
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 80px;
     max-width: 90%;
-    margin: 100px auto;
+    margin: 0 auto;
     
     
 }
@@ -78,8 +92,8 @@ html, body{
 .FAQ-card{
     padding: 10px;
     text-align: center;
-    margin-bottom: 100px;
-    border: 1px solid black;
+    /* margin-bottom: 100px; */
+    /* border: 1px solid black; */
     
 }
 
@@ -92,7 +106,7 @@ html, body{
 .FAQ-header{
   
   text-align: center;
-  margin: 50px;
+  margin-top: 5rem;
   font-size: 50px;
   
 
@@ -202,6 +216,17 @@ footer a{
     color: white;
     font-size: 25px;
 }
+footer{
+    width:100%;
+    background-color: lightblue;
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  
+}
+
 ul li a:hover{
     color: black;
 }
@@ -227,3 +252,66 @@ ul li {
     padding: 0px 0px;
     text-align: right;
 }
+
+h1{
+    font-size: 1.5rem;
+}
+
+  /*Mobile*/
+  @media screen and (max-width: 420px) {
+   .FAQ-grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 50px;
+   }
+   .mission-statement{
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.overview2, .mission2, .process2{
+    display: block;
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    border: 10px double lightblue;
+    margin-top: 10px;
+    }
+    .mission-content, .process-content {
+        text-align: center;
+    }
+    .overview, .mission, .process{
+        display: none;
+        }
+
+    .mission-statement {
+          display: none;
+    }
+
+    .services{
+        margin: 10px;
+    }
+  }
+
+  /*tablet*/
+@media screen and (min-width: 421px) and (max-width: 1050px) {
+   .FAQ-grid{
+    grid-template-columns: repeat(2, 1fr);
+   }
+
+   .mission-statement{
+    display: flex; 
+    flex-direction: column;
+}
+
+.mission-content, .process-content {
+    font-size: 1.7rem;
+}
+.services-content {
+    text-align: center;
+}
+
+
+}
+    
