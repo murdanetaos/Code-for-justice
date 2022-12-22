@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    background-color:white;
+    width: 500px;
+    padding: 25px;
+    margin: 25px auto 0;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+.wrapper h2{
+    background-color: white;
+    color: lightblue;
+    font-size: 24px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px dotted gray;
+
+}
+h4{
+    padding-bottom: 5px;
+    color: lightblue;
+
+}  
+.input-group{
+    margin-bottom: 8px;
+    width: 100%;
+    position: relative;
+    flex-direction: row;
+    padding: 5px 0;
+}  
+.input-box{
+    width: 100%;
+    margin-right: 12px;
+    position: relative;
+}
+.input-box:last-child{
+    margin-right: 0;
+}
+.name{
+    padding: 14px 10px 14px 50px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid gray;
+    outline: none;
+    letter-spacing: 1px;
+    transition: 0.3s ;
+    border-radius: 3px;
+    color: gray;
+}
+.name:focus, dob:focus{
+    webkit-box-shadow:0 0 2px 1px lightblue;
+    moz-box-shadow: 0 0 2px 1px lightblue;
+    box-shadow: 0 0 2px 1px lightblue;
+    border: 1px solid lightblue;
+
+} 
+.input-box .icon{
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    color: black;
+    background-color: white;
+    border-radius: 2px 0 0 2px;
+    transition: 0.3s;
+    font-size: 20px;
+    pointer-events: none;
+    border: 1px solid black;
+    border-radius: none;
+
+}
+.name:focus + .icon{
+    background-color: lightblue;
+    color: white;
+    border-radius: 1px solid lightblue;
+    border: none;
+    transition: 1s;
+}
+.dob{
+    width: 30%;
+    padding: 14px;
+    text-align: center;
+    background-color: white;
+    transition: 0.3s;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+.radio{
+    display: none;
+}
+.input-box label{
+    width: 50%;
+    padding: 13px;
+    background-color: white;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    border: 1px solid gray;
+}
+.input-box label:first-of-type{
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-right: none;
+}
+.input-box label:last-of-type{
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.radio:checked + label{
+    background-color: lightblue;
+    color: white;
+    transition: 0.5s;
+}
+.input-box select{
+    display: inline-block;
+    width: 50%;
+    padding: 12px;
+    background-color: white;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: all 0.2 ease;
+}
+.input-box select:focus{
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+}
+button{
+    width: 100%;
+    border: none;
+    background-color: lightblue;
+    color: white;
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: all 0.35 ease;
+
+}
+button:hover{
+    cursor: pointer;
+    background: lightblue;
+}
+
+footer{
+    width:100%;
+    background-color: lightblue;
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  
+}
+footer a{
+    display: flex;
+    justify-content: center;
+    padding: 0px 15px ;
+    margin:10px;
+    flex-direction: column;
+}
+
+.fa  {
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20%;
+ 
+    
+  }
+
+.fa-snapchat-ghost {
+    background: #fffb00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+  .fa-instagram {
+    background: #145380;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #59aae8 ;
+    color: white;
+  }
+
+  .fa-facebook {
+    background: #3a5692;
+    color: white;
+  }
+
+<Nav class="navbar">
+        <h1>GenHealth</h1>
+        <ul >
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="information.html">Info</a></li>
+            <li><a href="miguel.html">Resources</a></li>
+            <li><a href="dante.html">Donate Now</a></li>
+            <li><a href="dante.html">Contact Us</a></li>
+        </ul>
+    </Nav>
+
+a{
+    text-decoration: none;
+    
+    
+    
+    font
+}
+ul li a:hover{
+    color: black;
+}
+ul{
+    padding: 0px 5px;
+    list-style: none;
+    
+}
+ul li {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    padding: 0px 5px;
+    
+}
+.navbar{
+    width:100%;
+    background-color: lightblue;
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px;
+}
+
+
+
+
+  @media screen and (max-width: 420px) {
+    .flex-container{
+        font-size: x-small;
+    }
+    .impact{
+        font-size: x-small;
+    }
+    .navbar{
+        overflow: scroll;
+    }
+}
+/*tablet*/
+@media screen and (min-width: 421px) and (max-width: 1050px) {
+    .flex-container{
+        font-size: x-small;
+    }
+    .impact{
+        font-size: medium;
+    }
+    .navbar{
+        overflow: scroll;
+    }
+}
