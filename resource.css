@@ -1,13 +1,138 @@
+
 body{
-    
+
+background-color: lightblue;
+box-sizing: border-box;
+}
+
+
+.top{
+    text-decoration:  underline lightblue;
+    text-align: center;
+}
+
+
+#service{
+   
+    text-decoration: underline lightblue;
+   padding:100px 90px 20px 490px;
+   color: white;
 }
 
 h1{
-    font-size: medium;
-    border: 1px solid;
+    color: white;
+}
+
+li{
+color: white;
 }
 
 p{
-    border: 1px solid;
-    border-radius: 2px;
+    color: white;
+
 }
+
+
+a{
+    color: lightblue;
+}
+
+#link{
+list-style-type: none;    
+
+
+}
+footer{
+    width:100%;
+    background-color: lightblue;
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  
+}
+
+footer a{
+    display: flex;
+    justify-content: center;
+    padding: 0px 15px ;
+    margin:10px;
+    flex-direction: column;
+}
+
+.fa  {
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20%;
+ 
+    
+  }
+
+.fa-snapchat-ghost {
+    background: #fffb00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+  .fa-instagram {
+    background: #145380;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #59aae8 ;
+    color: white;
+  }
+
+  .fa-facebook {
+    background: #3a5692;
+    color: white;
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+ul li a:hover{
+    color: black;
+}
+ul{
+    padding: 0px 5px;
+    list-style: none;
+    
+}
+ul li {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    padding: 0px 5px;
+    
+}
+.navbar{
+    width:100%;
+    background-color: lightblue;
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px;
+}
+
+@media screen and (max-width: 420px) {
+    .flex-container{
+        font-size: x-small;
+    }
+    .impact{
+        font-size: x-small;
+    }
+    .navbar{
+        overflow: scroll;
+    }
+}
+

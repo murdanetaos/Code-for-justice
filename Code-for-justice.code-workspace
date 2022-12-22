@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../Desktop/GATEWAY2/Images"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Code-for-justice"
+	}
+}
