@@ -209,23 +209,15 @@ footer a{
     color: white;
   }
 
-<Nav class="navbar">
-        <h1>GenHealth</h1>
-        <ul >
-            <li><a href="Home.html">Home</a></li>
-            <li><a href="information.html">Info</a></li>
-            <li><a href="miguel.html">Resources</a></li>
-            <li><a href="dante.html">Donate Now</a></li>
-            <li><a href="dante.html">Contact Us</a></li>
-        </ul>
-    </Nav>
 
 a{
     text-decoration: none;
+    color: white;
+    font-size: 25px;
     
     
     
-    font
+    
 }
 ul li a:hover{
     color: black;
