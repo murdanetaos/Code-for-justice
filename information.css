@@ -1,20 +1,15 @@
 html, body{
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
 }
 
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} */
 
 .header{
-    background-image: url(/justice\ project\ hero\ image.avif);
+    background-image: url(./images/information-background.avif);
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: -50px;
-    margin-left: -10px;
+    margin-left: -7px;
     height: 60%;
     width: 100%;
     
@@ -42,11 +37,6 @@ html, body{
 
 .mission-statement{
     margin: 50px;
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* flex-wrap: wrap */
-    /* justify-content: center; */
-    
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -70,14 +60,6 @@ display: none;
     border: 10px double lightblue;
     margin: 50px;
  }
-/* .process{
-    max-width: 83%;
-    display: flex;
-    align-content: center;
-    margin-left: 80px;
-} */
-
-
 
 .FAQ-grid{
     display: grid;
@@ -85,39 +67,29 @@ display: none;
     grid-gap: 80px;
     max-width: 90%;
     margin: 0 auto;
-    
-    
 }
 
 .FAQ-card{
     padding: 10px;
     text-align: center;
-    /* margin-bottom: 100px; */
-    /* border: 1px solid black; */
-    
 }
 
 .FAQ-image{
     height: 200px;
     width: 300px;
-    
 }
 
 .FAQ-header{
-  
   text-align: center;
   margin-top: 5rem;
   font-size: 50px;
-  
-
-
 }
 
 .center-grid{
     max-width: 100%;
     margin: 100px auto;
     background-color: lightblue;
-    margin-left: -10px;
+    margin-left: -7px;
 }
 
 .statistics-circles{
@@ -139,6 +111,7 @@ display: none;
     flex-direction: column;
     padding: 50px;
     background-color: lightblue;
+    margin-left: -7px
 }
 
 .circle-text{
@@ -155,34 +128,32 @@ display: none;
 
 .services{
     display: block;
-
     text-align: center;
-    
-    
 }
 footer{
-    width:100%;
+    width:100vw;
     background-color: lightblue;
-    height: 80px;
-    line-height: 80px;
+    /* height: 80px; */
+    /* line-height: 80px; */
     display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
+    justify-content: space-evenly;
+    /* margin-top: 10px; */
+    margin-left: -7px
   
 }
 footer a{
-    display: flex;
-    justify-content: center;
-    padding: 0px 15px ;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* padding: 0px 15px ; */
     margin:10px;
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 
 .fa  {
-    display: flex;
+    /* display: flex; */
     padding: 20px;
-    font-size: 20px;
-    width: 30px;
+    /* font-size: 20px; */
+    /* width: 30px; */
     text-align: center;
     text-decoration: none;
     border-radius: 20%;
@@ -214,9 +185,9 @@ footer a{
   a{
     text-decoration: none;
     color: white;
-    font-size: 25px;
+    /* font-size: 25px; */
 }
-footer{
+/* footer{
     width:100%;
     background-color: lightblue;
     height: 80px;
@@ -225,7 +196,7 @@ footer{
     justify-content: space-between;
     margin-top: 10px;
   
-}
+} */
 
 ul li a:hover{
     color: black;
@@ -243,7 +214,7 @@ ul li {
     
 }
 .navbar{
-    width:100%;
+    width:100vw;
     background-color: lightblue;
     height: 80px;
     line-height: 80px;
@@ -274,9 +245,9 @@ h1{
     width: 80%;
     text-align: center;
     padding: 10px;
-    margin: 0 auto;
+    align-items: center;
+    margin: 10px 6px;
     border: 10px double lightblue;
-    margin-top: 10px;
     }
     .mission-content, .process-content {
         text-align: center;
